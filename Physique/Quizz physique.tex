@@ -1,0 +1,289 @@
+\documentclass[a4paper, 11pt, hidelinks]{article}
+\usepackage{bookmark}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{eucal}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{tikz}
+\usepackage{mathrsfs}  
+\usepackage{esvect}
+
+
+\geometry{hmargin=2cm,vmargin=1.5cm}
+
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!5},
+  root/.style     = {treenode, font=\Large, bottom color=red!10},
+  env/.style      = {treenode, font=\ttfamily\normalsize},
+  dummy/.style    = {circle,draw}
+}
+
+\newcommand{\prp}{\large \textbf{Proposition :} \large}
+
+\newcommand{\tm}{\large \textbf{Théoreme :} \large}
+
+\newcommand{\ex}{\textcolor{green}{Exemple :} }
+
+\newcommand{\dm}{\textcolor{red}{\textbf{Démo :} } }
+
+\newcommand{\de}{\large \textbf{Définition} \large }
+
+\newcommand{\rmq}{\textbf{Remarque :} }
+
+\newcommand{\bs}{\bigskip}
+
+\newcommand{\voca}{\textcolor{blue}{\textbf{Vocabulaire} } }
+
+\newcommand{\lem}{\textcolor{red}{\textbf{Lemme :} } }
+
+\newcommand{\trinom}[3]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3
+\end{pmatrix}}
+
+\newcommand{\quadrinom}[4]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+\end{pmatrix}}
+
+\newcommand{\pentanom}[5]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5
+\end{pmatrix}}
+
+\newcommand{\hexanom}[6]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5 \\
+    #6 
+\end{pmatrix}}
+
+\newcommand{\serie}[2]{\displaystyle\sum_{#1 =0}^{+\infty} #2_{#1} }
+
+\newcommand{\tend}{\underset{n \to + \infty}{\longrightarrow} }
+
+\newcommand{\Lra}{\Leftrightarrow}
+
+\newcommand{\lra}{\leftrightarrow}
+
+\newcommand{\Ra}{\Rightarrow}
+
+\newcommand{\ra}{\rightarrow}
+
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\La}{\Leftarrow}
+
+\newcommand{\dsum}[2]{\displaystyle\sum_{#1}^{#2} }
+
+\newcommand{\dint}[2]{\displaystyle\int_{#1}^{#2} }
+
+\newcommand{\ntend}{\underset{n \to + \infty}{\not \longrightarrow} }
+
+\newenvironment{lmatrix}{$ \left|\begin{array}{l} }{\end{array}\right.$}
+
+\newcommand{\img}[4]{\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=#1 ]{#2}
+    \caption{#3}
+    \label{#4}
+    \end{figure} }    
+\begin{document}
+
+
+
+
+\title{Physique 18-10}
+\author{Schobert Néo}
+
+\maketitle
+
+\tableofcontents
+
+\newpage 
+
+
+\section{Ensemble des chapitres :}
+\cite{Chapitre1}
+\cite{Chapitre2}
+\cite{Chapitre3}
+\cite{Chapitre4}
+\cite{Chapitre5}
+\cite{Chapitre6}
+\cite{Chapitre7}
+\cite{Chapitre8}
+\cite{Chapitre9}
+\cite{Chapitre10}
+\cite{Chapitre11}
+\cite{Chapitre12}
+
+
+
+
+\section{18 octobre}
+
+
+
+
+\subsection{Question :}
+
+\begin{itemize}
+    \item Qu'est-ce que le blanc d'ordre supérieur ? \cite{Chapitre8}
+    \item Qu'est-ce que la frange achromatique ? \cite{Chapitre8}
+    \item Qu'est-ce que les teintes de Newton ? \cite{Chapitre8}
+    \item Qu'est qu'un objet de phase ? \cite{Chapitre8}
+    \item Qu'est-ce qu'un réseau ? \cite{Chapitre6}
+    \item Qu'est-ce que le pas du réseau \cite{Chapitre6}
+    \item Relation nombre de trait par unité de longueur / pas \cite{Chapitre6}
+    \item Comment sont caractérisés chaque trait d'un réseau ? et vers où emettent ces traits ? \cite{Chapitre6}
+    \item Qu'observe-t-on après l'éclairage d'un réseau par un laser Hélium-Néon ? \cite{Chapitre6}
+    \item \img{0.5}{Images/Reseau en transmission.PNG}{Réseau en transmission}{Figure 1}
+    Différence de marche entre deux ondes consécutives. \cite{Chapitre6}
+    \item Rappeler la relation fondamentale des réseaux en transmission. \cite{Chapitre6}
+    \item Qu'est-ce que l'ordre d'interférence du réseau ? \cite{Chapitre6}
+    \item Pour quel ordre obtient-on les conditions de l'optique géométrique ? \cite{Chapitre6}
+    \newpage
+    \item \img{0.5}{Images/Reseau en reflexion.PNG}{Réseau en réflexion}{Figure 2}
+    Rappeler la relation fondamentale des réseaux en reflexion. \cite{Chapitre6}
+    \item Quelle expérience met en évidence la présence d'un minimum de déviation ? \cite{Chapitre6}
+    \item Comment s'écrit la déviation ? Comment l'exploiter. \cite{Chapitre6}
+    \item Cas intéressant de $\theta_K$ en fonction de $\theta_0$. \cite{Chapitre6}
+    \item Relation du minimum de déviation. \cite{Chapitre6}
+    \item Qu'est-ce que le pouvoir dispersif d'un réseau ? Donner la formule \cite{Chapitre6}
+    \item Pour un réseau éclairé en incidence normale $\theta_0=0$ par deux radiations $\lambda_1<\lambda_2$,
+    que dire; selon $K$, de la déviation ? \cite{Chapitre6}
+    \item A quel cas peut-on opposer cela ? (Cas du prisme) \cite{Chapitre6}
+    \item Valeur de $\Delta \varphi$ \cite{Chapitre6}
+    \item Méthode pour calculer la fonction de réseau. \cite{Chapitre6} 
+    \item Formule fonction de réseau et intensité. \cite{Chapitre6}
+    \item Périodicité de $R(\Delta \varphi)$ \cite{Chapitre6}
+    \item Cas d'annulation de $R(\Delta \varphi)$ \cite{Chapitre6}
+    \item Cas des maximas primaires : Conditions et conséquences pour $R(\Delta \varphi)$. \cite{Chapitre6}
+    \item Que réprésente $N$ ? \cite{Chapitre6}
+    \item $R(\Delta \varphi)$ dans le cas des maximas primaires et largeur du pic central. \cite{Chapitre6}
+    \item Valeur de $\Delta (\Delta \varphi)$ largeur du pic central. \cite{Chapitre6}
+\end{itemize}
+
+
+
+\subsection{Remarques}
+\begin{itemize}
+    \item Pourquoi $\theta_0$ dépend de $\theta_K$ ? \cite{Chapitre6}
+\end{itemize}
+
+
+
+\newpage
+
+\section{19 octobre}
+
+
+\subsection{Question :}
+
+\begin{itemize}
+    \item Par rapport à quelle variable peut-on écrire R la fonction de réseau ? \cite{Chapitre6}
+    \item Valeur de la largeur du pic central par rapport à $\Delta (sin(\theta))$ \cite{Chapitre6}
+    \img{0.5}{Images/Resolution totale de deux radiations lambda1 et lambda2.PNG}{Résolution totale de deux radiations $\lambda_1$ et $\lambda_2$}{Figure 4}
+    \item Cas du pouvoir séparateur d'un réseau. Valeurs des pics des doublets de sodium, largeur du pic et distance entre les deux pics. \cite{Chapitre6}
+    \item Qu'est-ce que le critère de Rayleigh ? \cite{Chapitre6}
+    \item Que vaut les paramètres dans le cas limite d'après le critère de Rayleigh ? \cite{Chapitre6}
+    \item Définir le pouvoir de résolution. \cite{Chapitre6}
+    \item Expression de la loi de Coulomb \cite{Chapitre9}
+    \img{0.5}{Images/Definition de la loi de Coulomb (cas q1q2>0).PNG}{Schéma de la loi de Coulomb (cas $q_1q_2>0$)}{Figure 5}
+    \item Valeur de la permitivité diélectrique du vide \cite{Chapitre9}
+    \item Analogie Loi de Coulomb / Gravitation \cite{Chapitre9}
+    \item Qu'est-ce que le rayon de Bohr ? \cite{Chapitre9}
+    \item Valeur du rayon de Bohr \cite{Chapitre9}
+    \item Lien champ électrostatique / force électrostatique.(charge ponctuelle q) \cite{Chapitre9}
+    \item Lien champ électrostatique / force électrostatique.($n$ charges ponctuelles $q_i$) \cite{Chapitre9}
+    \item Exemple du champ produit par un triangle équilatéral dont les sommets sont de charges $(2q,q,q)$ \cite{Chapitre9}
+    \item Que vaut la charge portée à la surface d'une sphère métallique en cuivre de rayon R portée à un potentiel $V_1$. \cite{Chapitre9}
+    \item Comment calculer le nombre de charges négatives en défaut et le nombre total de charges mobiles ? \cite{Chapitre9} 
+    \item Comment caractériser la charge dans la matière électrisée. Quel lien avec la continuité ? \cite{Chapitre9}
+    \item Définir densité linéïque de charge / densité surfacique de charge / densité volumique de charge. \cite{Chapitre9}
+    \item Lien entre les trois modèles (cas du fil rectiligne de rayon $r$ chargé) \cite{Chapitre9}
+    \item Expression élémentaire des champs (en fonction des densités linéiques / surfaciques / volumiques de charge) \cite{Chapitre9}
+    \newpage
+    \img{0.5}{Images/Plan de symetrie d'une distribution de charge.PNG}{Plan de symétrie d'une distribution de charge}{Figure 6}
+    \item Qu'est-ce qu'un plan de symétrie pour une distribution de charge. (Et sa notation) \cite{Chapitre9}
+    \item Comment calculer $d\vv{E}(M)$ ? \cite{Chapitre9}
+    \item Conséquences d'un plan de symétrie sur le champ en deux points symétriques $M$ et $M'$. \cite{Chapitre9}
+    \img{0.5}{Images/Plan d'antisymetrie d'une distribution de charge.PNG}{Plan d'antisymétrie d'une distribution de charge}{Figure 7}
+    \item Qu'est-ce qu'un plan d'antisymétrie pour une distribution de charge. (Et sa notation) \cite{Chapitre9}
+    \item Comment calculer $d\vv{E}(M)$ ? \cite{Chapitre9}
+    \item Conséquences d'un plan d'antisymétrie sur le champ en deux points symétriques $M$ et $M'$. \cite{Chapitre9}
+    \item Qu'est-ce qu'une transformation isométrique du champ ? \cite{Chapitre9}
+    \item Comment se transforme le champ lors d'une transformation isométrique ? \cite{Chapitre9}
+    \item Que peut-on dire de l'invariance par translation ? \cite{Chapitre9}
+    \item Que peut-on dire du champ lors d'une translation selon un axe ? \cite{Chapitre9}
+    \item Que signifie l'invariance par rotation ? \cite{Chapitre9}
+    \item Que peut-on dire du champ lors d'une rotation selon un axe ? \cite{Chapitre9}
+    \item Pourquoi il ne faut pas établir un lien entre la dépendance du champ et sa direction ? \cite{Chapitre9}
+    \item Rappeler le principe général de Curie. \cite{Chapitre9}
+    \item Qu'est-ce que la circulation du champ électrique ? \cite{Chapitre9}
+    \item Donner la formule de la circulation du champ $\vv{E}$ entre le point $A$ et $B$. \cite{Chapitre9}
+    \item Que dire de la circulation du champ ? \cite{Chapitre9}
+    \item Qu'est-ce que le potentiel électrostatique ? \cite{Chapitre9}
+    \item Valeur du potentiel électrostatique (charge ponctuelle) \cite{Chapitre9}
+    \item Lien potentiel électrostatique / circulation du champ \cite{Chapitre9}
+    \item Valeur du potentiel électrostatique (distribution de $n$ charges $q_i$) \cite{Chapitre9}
+    \item Lien circulation du champ / Différence de potentiel entre deux points. \cite{Chapitre9}
+\end{itemize}
+
+
+
+
+
+
+\subsection{Remarques}
+\begin{itemize}
+    \item Peut-on avoir une distribution de charge non homogène.
+    \item Existe-il une sorte d'aimant à charge ?
+    \item Si oui, on peut imaginer un recouvrement systématique par translation vraie en pratique.
+\end{itemize}
+
+
+
+\section{21 octobre}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bibliography{biblio}
+\bibliographystyle{unsrt}
+
+
+
+
+\end{document}
