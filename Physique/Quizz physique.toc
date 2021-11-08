@@ -6,4 +6,6 @@
 \contentsline {section}{\numberline {3}19 octobre}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Question :}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Remarques}{7}{subsection.3.2}%
-\contentsline {section}{\numberline {4}21 octobre}{7}{section.4}%
+\contentsline {section}{\numberline {4}8 Novembre}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Questions}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Remarques}{7}{subsection.4.2}%
