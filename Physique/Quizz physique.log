@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.18)  8 NOV 2021 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.18)  9 NOV 2021 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,40 +689,40 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Images/Reseau en transmission.PNG, id=59, 487.8225pt x 431.6125pt>
+<Images/Reseau en transmission.PNG, id=65, 487.8225pt x 431.6125pt>
 File: Images/Reseau en transmission.PNG Graphic file (type png)
 <use Images/Reseau en transmission.PNG>
 Package pdftex.def Info: Images/Reseau en transmission.PNG  used on input line 161.
 (pdftex.def)             Requested size: 243.91064pt x 215.80571pt.
  [2 </home/neo/Bureau/TEST/Physique/Images/Reseau en transmission.png>]
-<Images/Reseau en reflexion.PNG, id=84, 443.6575pt x 363.3575pt>
+<Images/Reseau en reflexion.PNG, id=90, 443.6575pt x 363.3575pt>
 File: Images/Reseau en reflexion.PNG Graphic file (type png)
 <use Images/Reseau en reflexion.PNG>
 Package pdftex.def Info: Images/Reseau en reflexion.PNG  used on input line 167.
 (pdftex.def)             Requested size: 221.8282pt x 181.6783pt.
  [3 </home/neo/Bureau/TEST/Physique/Images/Reseau en reflexion.png>]
-<Images/Resolution totale de deux radiations lambda1 et lambda2.PNG, id=116, 730.73pt x 400.49625pt>
+<Images/Resolution totale de deux radiations lambda1 et lambda2.PNG, id=122, 730.73pt x 400.49625pt>
 File: Images/Resolution totale de deux radiations lambda1 et lambda2.PNG Graphic file (type png)
 <use Images/Resolution totale de deux radiations lambda1 et lambda2.PNG>
 Package pdftex.def Info: Images/Resolution totale de deux radiations lambda1 et lambda2.PNG  used on input line 209.
 (pdftex.def)             Requested size: 365.3641pt x 200.24763pt.
-<Images/Definition de la loi de Coulomb (cas q1q2 superieur a 0).PNG, id=122, 805.0075pt x 273.02pt>
+<Images/Definition de la loi de Coulomb (cas q1q2 superieur a 0).PNG, id=128, 805.0075pt x 273.02pt>
 File: Images/Definition de la loi de Coulomb (cas q1q2 superieur a 0).PNG Graphic file (type png)
 <use Images/Definition de la loi de Coulomb (cas q1q2 superieur a 0).PNG>
 Package pdftex.def Info: Images/Definition de la loi de Coulomb (cas q1q2 superieur a 0).PNG  used on input line 215.
 (pdftex.def)             Requested size: 402.50278pt x 136.50966pt.
  [4 </home/neo/Bureau/TEST/Physique/Images/Resolution totale de deux radiations lambda1 et lambda2.png> </home/neo/Bureau/TEST/Physique/Images/Definition de la loi de Coulomb (cas q1q2 superieur a 0).png>] [5]
-<Images/Plan de symetrie d'une distribution de charge.PNG, id=149, 706.64pt x 389.455pt>
+<Images/Plan de symetrie d'une distribution de charge.PNG, id=156, 706.64pt x 389.455pt>
 File: Images/Plan de symetrie d'une distribution de charge.PNG Graphic file (type png)
 <use Images/Plan de symetrie d'une distribution de charge.PNG>
 Package pdftex.def Info: Images/Plan de symetrie d'une distribution de charge.PNG  used on input line 230.
 (pdftex.def)             Requested size: 353.31914pt x 194.72702pt.
-<Images/Plan d'antisymetrie d'une distribution de charge.PNG, id=153, 719.68875pt x 380.42125pt>
+<Images/Plan d'antisymetrie d'une distribution de charge.PNG, id=160, 719.68875pt x 380.42125pt>
 File: Images/Plan d'antisymetrie d'une distribution de charge.PNG Graphic file (type png)
 <use Images/Plan d'antisymetrie d'une distribution de charge.PNG>
 Package pdftex.def Info: Images/Plan d'antisymetrie d'une distribution de charge.PNG  used on input line 234.
 (pdftex.def)             Requested size: 359.84349pt x 190.21014pt.
- [6 </home/neo/Bureau/TEST/Physique/Images/Plan de symetrie d'une distribution de charge.png> </home/neo/Bureau/TEST/Physique/Images/Plan d'antisymetrie d'une distribution de charge.png>] (/home/neo/Bureau/TEST/Physique/Quizz physique.bbl
+ [6 </home/neo/Bureau/TEST/Physique/Images/Plan de symetrie d'une distribution de charge.png> </home/neo/Bureau/TEST/Physique/Images/Plan d'antisymetrie d'une distribution de charge.png>] [7] (/home/neo/Bureau/TEST/Physique/Quizz physique.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -761,7 +761,7 @@ Underfull \hbox (badness 5802) in paragraph at lines 40--44
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 7.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
 
-[7]
+[8]
 Underfull \hbox (badness 5802) in paragraph at lines 46--50
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 8.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
@@ -776,27 +776,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--56
 \T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Electromagnetisme / Electrostatique / Champ _ E _
  []
 
-) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
+
+Underfull \hbox (badness 4072) in paragraph at lines 58--62
+[]\T1/lmr/m/n/10.95 Graye.  Cha-pitre 10.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+\T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Electromagnetisme / Electrostatique / Formulation _
+ []
+
+) [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
  (/home/neo/Bureau/TEST/Physique/Quizz physique.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 392.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
  ) 
 Here is how much of TeX's memory you used:
- 20281 strings out of 481239
- 371384 string characters out of 5920377
- 626983 words of memory out of 5000000
- 35067 multiletter control sequences out of 15000+600000
+ 20288 strings out of 481239
+ 371445 string characters out of 5920377
+ 629983 words of memory out of 5000000
+ 35070 multiletter control sequences out of 15000+600000
  574787 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,60p,449b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on "/home/neo/Bureau/TEST/Physique/Quizz physique.pdf" (8 pages, 381729 bytes).
+ 60i,15n,60p,449b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect8.pfb>
+Output written on "/home/neo/Bureau/TEST/Physique/Quizz physique.pdf" (9 pages, 392001 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
