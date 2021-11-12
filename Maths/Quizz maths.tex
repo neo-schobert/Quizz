@@ -1,0 +1,341 @@
+\documentclass[a4paper, 11pt, hidelinks]{article}
+\usepackage{bookmark}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{eucal}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{tikz}
+\usepackage{mathrsfs}  
+\usepackage{esvect}
+
+
+\geometry{hmargin=2cm,vmargin=1.5cm}
+
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!5},
+  root/.style     = {treenode, font=\Large, bottom color=red!10},
+  env/.style      = {treenode, font=\ttfamily\normalsize},
+  dummy/.style    = {circle,draw}
+}
+
+\newcommand{\prp}{\large \textbf{Proposition :} \large}
+
+\newcommand{\tm}{\large \textbf{Théoreme :} \large}
+
+\newcommand{\ex}{\textcolor{green}{Exemple :} }
+
+\newcommand{\dm}{\textcolor{red}{\textbf{Démo :} } }
+
+\newcommand{\de}{\large \textbf{Définition} \large }
+
+\newcommand{\rmq}{\textbf{Remarque :} }
+
+\newcommand{\bs}{\bigskip}
+
+\newcommand{\voca}{\textcolor{blue}{\textbf{Vocabulaire} } }
+
+\newcommand{\lem}{\textcolor{red}{\textbf{Lemme :} } }
+
+\newcommand{\trinom}[3]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3
+\end{pmatrix}}
+
+\newcommand{\quadrinom}[4]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+\end{pmatrix}}
+
+\newcommand{\pentanom}[5]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5
+\end{pmatrix}}
+
+\newcommand{\hexanom}[6]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5 \\
+    #6 
+\end{pmatrix}}
+
+\newcommand{\serie}[2]{\displaystyle\sum_{#1 =0}^{+\infty} #2_{#1} }
+
+\newcommand{\tend}{\underset{n \to + \infty}{\longrightarrow} }
+
+\newcommand{\Lra}{\Leftrightarrow}
+
+\newcommand{\lra}{\leftrightarrow}
+
+\newcommand{\Ra}{\Rightarrow}
+
+\newcommand{\ra}{\rightarrow}
+
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\La}{\Leftarrow}
+
+\newcommand{\dsum}[2]{\displaystyle\sum_{#1}^{#2} }
+
+\newcommand{\dint}[2]{\displaystyle\int_{#1}^{#2} }
+
+\newcommand{\ntend}{\underset{n \to + \infty}{\not \longrightarrow} }
+
+\newenvironment{lmatrix}{$ \left|\begin{array}{l} }{\end{array}\right.$}
+
+\newcommand{\img}[4]{\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=#1 ]{#2}
+    \caption{#3}
+    \label{#4}
+    \end{figure} }    
+\begin{document}
+
+\newcommand{\grad}[1]{\vv{grad}#1}
+
+
+\title{Maths}
+\author{Schobert Néo}
+
+\maketitle
+
+\tableofcontents
+
+\newpage 
+
+
+
+\section{Convergence simple / convergence uniforme}
+
+\subsection{8 Novembre}
+
+\subsection{Questions}
+
+\begin{itemize}
+    \item Qu'est-ce que la convergence simple ?
+    \item Que dire de $g,h : A\subset D \to \mathbb{K}$ quand $(f_n)$ converge simplement (CVS) vers $g$ et $h$.
+    \item Qu'est-ce que la limite simple (parler d'unicité)
+    \item Propriétés qui se transmettent par convergence simple (2 trucs)
+    \item Citer 2 propriétés qui ne se transmettent pas (citer 2 exemples)
+    \item Quelle variable arrive en premier ? $x$ ou $n$ ?
+    \item Parler de convergence simple / uniforme \textbf{sur un ensemble}
+    \item Différence entre CVS et CVU.
+    \item Quelle variable arrive en premier ? $x$ ou $n$ ?
+    \item Propositions liées à la CVU. (restriction / CVU $\Rightarrow CVS$ / $||||_{+\infty}$ / unicité)
+    \item Qu'est-ce que la limite uniforme.
+    \item Transfert de la continuité en CVU. (re-démontrer)
+    \item Notation $\delta_n(x)$ et comment l'utiliser ?
+    \item Méthode pour montrer une non CVU.
+    \item Rappeler notion de convergence uniforme / simple sur série d'application.
+    \item Convergence simple de $\sum f_n$ sur $A$ (A définir)
+    \item Grossière divergence en convergence de série d'application. (redémontrer)
+    \item Caractérisation de la convergence uniforme de $\sum f_n$ sur $A$.
+    \item Transfert de la continuité en CVU de séries d'applications.
+    \item Quand dispose-t-on de $(R_n)$ et $S$ ?
+    \item Définir convergence absolue et convergence normale d'une série d'application.
+    \item Lien entre les $4$ convergences.
+\end{itemize}
+
+
+
+
+\subsubsection{Remarques}
+\begin{itemize}
+    \item Définir racine $n$-ième de $x \in \mathbb{R}$
+\end{itemize}
+
+
+
+\subsection{Session exercice 8:}
+
+
+\subsubsection{Exercice 21 (KDR)}
+
+Pour $x\in \mathbb{R}^*_+$, on pose $S(x)=\displaystyle\sum_{n=0}^{+\infty} \frac{(-1)^n}{x+n}$
+
+\begin{enumerate}
+    \item Mq $S$ est définie et continue sur $\mathbb{R}^*_+$.
+    
+    
+    Pour la définition, montrer que $S(x)$ existe.
+
+    Penser au CSSA ($(\frac{1}{x+n})$ est décroissante et tend vers $0$)
+
+    Ensuite, passer par la convergence uniforme puis par le théorème de transfert de continuité.
+    \item Soit $(x,y)\in \mathbb{R}^*_+ | x<y$.
+    
+    Etudier $S(y)-S(x)$, puis repenser au CSSA et au fait que la somme est du signe de son premier terme dans le CSSA.
+    ($T(x)=\displaystyle\sum_{n=0}^{+ \infty} (-1)^n \frac{1}{x(n+1)}$ est du signe de son premier terme.)
+    \item Le but ici est de vérifier une équation fonctionnelle pour $S(x)$.
+    
+    On calcul alors $S(x+1)$, que l'on exprime en fonction de $S(x)$. Par changement de variable, on obtient :
+
+    $\forall x \in \mathbb{R}^*_+, S(x+1)=\frac{1}{x} - S(x)$
+
+    $S$ est $C^0$ en 1. On étudie alors les limites: $S(x)=\frac{1}{x} - S(x+1)= \frac{1}{x} + o(\frac{1}{x}) \sim \frac{1}{x}$.
+    
+    Donc $S(x) \sim_{0^+} \frac{1}{x}$
+
+    Pour l'équivalent en $+\infty$, il faut avoir l'idée \textbf{d'encadrer $S(x)$}. Pour cela, utiliser la relation fonctionnelle et la monotonie de S en $x$ et en $x-1$.
+\end{enumerate}
+
+
+\subsubsection{Exercice 13}
+
+Pour $n \in \mathbb{N}$ et $x\in \mathbb{R}$, on pose: $f_n(x)=\frac{sin(nx)}{n!}$
+
+Montrer que la série de fonctions $\sum f_n$ converge uniformément sur $\mathbb{R}$ puis expliciter sa somme.
+
+Ici, plutôt que de montrer la convergence uniforme en utilisant la convergence simple puis le reste $R_n$ (qui doit tendre vers $0$),
+on préfère utiliser la convergence normale.
+
+$\forall x \in \mathbb{R}$, $|f_n(x)|\leq \frac{1}{n!}$.
+
+Donc comme la borne supérieur et le plus petit des majorants, $||f_n||_{\infty}\leq \frac{1}{n!}$
+
+Par comparaison de SATP, $\sum ||f_n||_{\infty}$ converge.
+
+Donc on a convergence normale donc uniforme.
+
+Elle converge donc simplement. On dispose alors de la somme $S(x)$.
+
+On y étudie la limite sachant que la fonction $Im$ est $\mathbb{R}$ linéaire et $dim_{\mathbb{R}}(\mathbb{C})=2< +\infty$ donc $Im$ est $C^0$ sur $\mathbb{C}$.
+
+
+
+
+\subsubsection{Exercice 7}
+
+Soit $(f_n)$ une suite de fonctions polynômes qui converge uniformément sur $\mathbb{R}$ vers $f$.
+
+Montrer que $f$ est une fonction polynôme.
+
+
+Celui-ci est pas évident.
+
+Il faut en fait repartir des définitions.
+
+$f_n$ est une fonction polynôme donc $\exists P_n \in \mathbb{R}[X] | \forall t \in \mathbb{R}, f_n(t)=P_n(t)$.
+
+On a alors $||f_n -f ||_{\infty} \tend 0$
+
+On remarque alors que toute fonction polynôme bornée sur $\mathbb{R}$ est constante.
+
+
+On s'intéresse alors aux "tranches de Cauchy".
+
+C'est à dire, à $||f_{n+p}-f_n||_{\infty}$.
+
+On montre que cette expression est bornée.
+
+On a alors $\exists c_{n,p} \in \mathbb{R} | \forall t \in \mathbb{R}, f_{n+p}(t) -f_n(t)=c_{n,p}$
+
+$c_{n,p}= f_{n,p}(12)-f_n(12) \underset{p \to + \infty}{\longrightarrow} f(12) - f_n(12)$
+
+On a alors avec $c_n$ la limite quand $p \to +\infty$ de $c_{n,p}$,
+
+$f(t)-f_n(t)=c_n$
+
+Donc $f(t)=f_N(t)+c_n$ $f_N$ est une fonction pôlynomiale donc $f$ est une fonction polynômiale.
+
+
+
+
+\subsubsection{Exercice 16}
+
+On pose $S(x)=\displaystyle\sum_{n=1}^{+\infty} \underbrace{n^xe^{-nx}}_{f_n(x)}$. Montrer que $S$ est continue sur $]0,+\infty [$
+
+Soit $x \in \mathbb{R}^*_+$,
+
+$f_n(x)=e^{-(n-ln(x))x}= o(\frac{1}{n^2})$.
+
+Donc $\sum f_n(x)$ converge car $2>1$
+
+Donc $S(x)$ existe. Donc $S$ est définie sur $\mathbb{R}^*_+$.
+
+On ne peut pas utiliser la convergence normale ici car on s'aperçoit en faisant le tableau de signe,
+
+que $||f_n||_{\infty}$=1
+
+On se place alors sur un segment où ca marche et ok par convergence normale... 
+
+
+
+\subsection{12 Novembre}
+
+
+\subsubsection{Questions}
+
+\begin{itemize}
+    \item Définir le rayon de convergence.
+    \item Lien $r$ / borne.
+    \item Rayon de convergence de la suite nulle.
+    \item Rayon de convergence d'une suite constante non nulle.
+    \item Si la suite $(a_n)$ est bornée, alors $R_a$...
+    \item Si la suite est convergente de limite non nulle alors $R_a$...
+    \item Si la suite tend vers zéro, alors $R_a$...
+    \item Si $|a_n| \leq |b_n|$, alors $R_a$...$R_b$.
+    \item Si $a_n= \mathcal{O}(b_n)$ alors $R_a$...$R_b$.
+    \item Si $a_n \sim b_n$ alors $R_a$...$R_b$.
+    \item Lien entre $R_{a+b}$ et $R_a$ et $R_b$.
+    \item Lien entre $R_{\alpha a}$ et $R_a$.
+    \item Suite $D(a)$ et $I(a)$. (suite dérivée et primitive)
+    \item Lien suite série pour $R_a$.
+    \item Règle d'Alembert.
+    \item Rayon de convergence de la suite géométrique $(a^n)$
+    \item Pour montrer $R_a \leq R_b$,
+    
+    On prend $r\in [0,R_a[$ puis on montrer que la suite $(b_nr^n)$ est bornée.
+    \item $\forall h \in \mathbb{R}^*_+, \forall p \in \mathbb{N}, (r+h)^{p+1} \leq (p+1)r^ph$
+    \item Cas de la fraction rationnelle \textbf{non nulle}.
+    \item Cas du produit de convolution.
+    \item Qu'est-ce qu'une série entière de la variable complexe.
+    \item Rayon de convergence d'une série entière.
+    \item Définition ensemble de convergence de $\sum a_nz^n$, disque ouvert de $\sum a_nz^n$ et cercle d'incertitude de $\sum a_nz^n$.
+    \item Définition somme de la série entière.
+    \item Que peut-on dire du disque fermé $D_r$. Et que ne peut-on pas dire sur le disque ouvert de convergence $D_a$ vis-à-vis de la convergence uniforme.
+    \item Série entière produit des séries entières $\sum a_n z^n$ et $\sum b_n z^n$.
+    \item $z\in \mathbb{C}$, $\in \mathbb{N}^*$, Rayon de convergence des séries $\dsum{n=0}{+\infty} z^n$, $\dsum{n=p}{+ \infty} n(n-1)...(n-(p-1))z^{n-p}$, $\dsum{n=0}{+ \infty} \binom{p}{n+p}z^n$
+    et somme de ces séries. Moyen mnémotechnique pour le $2$. (dérivation)
+    \item cas des fonctions trigonométriques / exponentielles et trigonométriques hyperboliques.
+    \item Définition du cos d'un complexe... Revoir l'histoire de la définition des fonctions cos et sin.
+    \item Tout pareil pour les séries entières de la variable réelle.
+    \item Dernier théorème.
+\end{itemize}
+
+
+
+
+
+
+
+
+\subsubsection{Remarque}
+
+
+
+
+
+
+
+\end{document}
