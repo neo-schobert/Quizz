@@ -326,11 +326,72 @@ On se place alors sur un segment où ca marche et ok par convergence normale...
 
 
 
+\subsubsection{Remarque}
+
+
+
+\section{Integrale généralisée}
+
+\subsection{15 Novembre}
+
+
+\subsubsection{Questions}
+
+\begin{itemize}
+    \item Notion d'intégrale généralisée
+    \item Dans le cas d'une fonction positive, son intégrale est croissante. Sa convergence équivaut alors à sa majoration. (comme les SATPs)
+    \item Parties réelles et imaginaires stables par intégration.
+    \item Croissance de l'intégrale
+    \item Faire bien \textbf{attention aux convergences}
+    \item Que ne faut-il pas écrire quand l'intégrale de $f+g$ converge et l'intégrale de $f$ et l'intégrale de $g$ divergent.
+    \item Définir le reste de l'intégrale et les conditions de dérivabilité.
+    \item Définir intégrale généralisée de $f$ sur $[a,b[$
+    \item Dans le cas d'une fonction positive, son intégrale est croissante. Sa convergence équivaut alors à sa majoration. (comme les SATPs) (cas $[a,b[$)
+    \item Une application continue par morceaux sur un \textbf{segment} est bornée.
+    \item Condition pour avoir l'intégrale de $f$ convergente sur $[a,b[$ quand $f$ est continue par morceaux.
+    \item Valeur de $arctanh$ en fonction de $ln$
+    \item Quand on fait les calculs, on utilise la notation $F(x)=\displaystyle\int_a^x f$ 
+    \item Tout pareil sur $]a,b]$
+    \item Notion d'intégrale généralisée sur $]a,b[$
+    \item Généralement, on prolonge par continuité la fonction.
+    
+    Exemple : $g(t)=ln(t)ln(1-t)$. 
+    
+    $g$ est continue sur $]0,1[$.
+
+    On pose $g(0)=g(1)=0$.
+
+    On a alors $g$ est continue sur $[0,1]$
+
+    $g(t)\sim_{0^+} -tln(t)$     $g(t)\sim_{1^-} (t-1)ln(1-t)$
+
+    Alors $\displaystyle\int_0^1 g$ converge.
+    \item Dans le changement de variable MPSI, on pose $t=\varphi (u)$. Il faut alors seulement $\varphi \in \mathscr{C}^1$
+    \item Dans le nouveau changement de variable, cas des intégrales impropres, il faut $\varphi : ]a,b[ \to ]\alpha,\beta[$ une bijection strictement monotone
+    de classe $\mathscr{C}^1$ de $]\alpha,\beta[$ sur $]a,b[$.
+    
+    On a alors si $f$ est continue sur $]a,b[$, $\displaystyle\int_a^b f$ et $\displaystyle\int_\alpha^\beta (f \circ \varphi)\varphi '$ sont de même nature.
+
+    Dans le cas où ça converge, $\displaystyle\int_a^b f(x)dx=\displaystyle\int_\alpha^\beta f(\varphi(t))|\varphi '(t)|dt$
+    \item Dans l'intégration par partie MPSI, on doit avoir la fonction qu'on primitive qui est $\mathscr{C}^0$ et la fonction qu'on dérive qui est $\mathscr{C}^1$.
+    \item Dans le nouveau théorème d'intégration par partie, cas des intégrales impropres, il faut en plus que, pour $\displaystyle\int_a^b u'v$,
+    
+    $uv$ admette une limite en $a$ et en $b$
+    \item Définition d'une intégrale absolument convergente. D'une intégrale semi-convergente.
+    \item Comparaison de deux fonctions continues par morceaux $0\leq \varphi \leq \psi$
+    
+    La convergence de l'intégrale de $\varphi$ se déduit alors de celle de $\psi$.
+
+    La divergence de l'intégrale de $\psi$ se déduit alors de celle de $\varphi$.
+    \item Conditions pour appliquer l'inégalité triangulaire à l'intégrale.
+\end{itemize}
 
 
 
 
 \subsubsection{Remarque}
+
+
 
 
 

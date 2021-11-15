@@ -11,3 +11,7 @@
 \contentsline {subsection}{\numberline {1.4}12 Novembre}{3}{subsection.1.4}%
 \contentsline {subsubsection}{\numberline {1.4.1}Questions}{3}{subsubsection.1.4.1}%
 \contentsline {subsubsection}{\numberline {1.4.2}Remarque}{4}{subsubsection.1.4.2}%
+\contentsline {section}{\numberline {2}Integrale généralisée}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}15 Novembre}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Questions}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Remarque}{5}{subsubsection.2.1.2}%
