@@ -15,3 +15,6 @@
 \contentsline {section}{\numberline {6}15 Novembre}{8}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Questions}{8}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Remarques}{9}{subsection.6.2}%
+\contentsline {section}{\numberline {7}16 Novembre}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Questions}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Remarques}{9}{subsection.7.2}%
