@@ -1,0 +1,196 @@
+\documentclass[a4paper, 11pt, hidelinks]{article}
+\usepackage{bookmark}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{eucal}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{tikz}
+\usepackage{mathrsfs}  
+\usepackage{esvect}
+
+
+\geometry{hmargin=2cm,vmargin=1.5cm}
+
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!5},
+  root/.style     = {treenode, font=\Large, bottom color=red!10},
+  env/.style      = {treenode, font=\ttfamily\normalsize},
+  dummy/.style    = {circle,draw}
+}
+
+\newcommand{\prp}{\large \textbf{Proposition :} \large}
+
+\newcommand{\tm}{\large \textbf{Théoreme :} \large}
+
+\newcommand{\ex}{\textcolor{green}{Exemple :} }
+
+\newcommand{\dm}{\textcolor{red}{\textbf{Démo :} } }
+
+\newcommand{\de}{\large \textbf{Définition} \large }
+
+\newcommand{\rmq}{\textbf{Remarque :} }
+
+\newcommand{\bs}{\bigskip}
+
+\newcommand{\voca}{\textcolor{blue}{\textbf{Vocabulaire} } }
+
+\newcommand{\lem}{\textcolor{red}{\textbf{Lemme :} } }
+
+\newcommand{\trinom}[3]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3
+\end{pmatrix}}
+
+\newcommand{\quadrinom}[4]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+\end{pmatrix}}
+
+\newcommand{\pentanom}[5]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5
+\end{pmatrix}}
+
+\newcommand{\hexanom}[6]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5 \\
+    #6 
+\end{pmatrix}}
+
+\newcommand{\serie}[2]{\displaystyle\sum_{#1 =0}^{+\infty} #2_{#1} }
+
+\newcommand{\tend}{\underset{n \to + \infty}{\longrightarrow} }
+
+\newcommand{\Lra}{\Leftrightarrow}
+
+\newcommand{\lra}{\leftrightarrow}
+
+\newcommand{\Ra}{\Rightarrow}
+
+\newcommand{\ra}{\rightarrow}
+
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\La}{\Leftarrow}
+
+\newcommand{\dsum}[2]{\displaystyle\sum_{#1}^{#2} }
+
+\newcommand{\dint}[2]{\displaystyle\int_{#1}^{#2} }
+
+\newcommand{\ntend}{\underset{n \to + \infty}{\not \longrightarrow} }
+
+\newenvironment{lmatrix}{$ \left|\begin{array}{l} }{\end{array}\right.$}
+
+\newcommand{\img}[4]{\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=#1 ]{#2}
+    \caption{#3}
+    \label{#4}
+    \end{figure} }    
+\begin{document}
+
+\newcommand{\grad}[1]{\vv{grad}#1}
+
+
+\title{Physique 18-10}
+\author{Schobert Néo}
+
+\maketitle
+
+\tableofcontents
+
+\newpage 
+
+
+\section{Ensemble des chapitres :}
+\cite{Chapitre1}
+\cite{Chapitre2}
+\cite{Chapitre3}
+\cite{Chapitre4}
+\cite{Chapitre5}
+\cite{Chapitre6}
+\cite{Chapitre7}
+\cite{Chapitre8}
+\cite{Chapitre9}
+\cite{Chapitre10}
+\cite{Chapitre11}
+\cite{Chapitre12}
+
+
+
+\section{Questions restantes}
+\begin{enumerate}
+    \item Les charges doivent être au repos; qu'est-ce que ça implique sur le champ. \cite{Chapitre9}
+    \item Définir la capacité d'un condensateur. \cite{Chapitre9}
+    \item Valeur de la capacité d'un condensateur plan. \cite{Chapitre9}
+    \item Valeur de la permittivité dans un milieu autre que le vide. \cite{Chapitre9}
+    \item Calculer l'énergie électrique emmagasinée dans un condensateur. \cite{Chapitre9}
+    \item Définir un tube de champ. \cite{Chapitre9}
+    \item Propriété du champ par rapport aux zones isopotentielles. \cite{Chapitre9}
+    \item Calculer le flux élémentaire du champ électrique à travers la surface fermée du méso-cube. \cite{Chapitre10}
+    \item Définir la divergence. ($div(\vv{E}))$ \cite{Chapitre10}
+    \item Qu'est ce que l'équation de Maxwell-Gauss. \cite{Chapitre10}
+    \item Citer le théorème de Green-Ostrogradski. \cite{Chapitre10} 
+    \item Calculer la circulation élémentaire du champ électrostatique sur le contour fermé. \cite{Chapitre10}
+    \item Définir la rotationnelle. ($\vv{rot}\vv{E})$ \cite{Chapitre10}
+    \item Equation de Maxwell-Faraday de la statique. \cite{Chapitre10}
+    \item Autre expression de $\vv{rot}\vv{E}$. \cite{Chapitre10}
+    \item Que remarque-t-on pour mémoriser plus facilement l'expression de $\vv{rot}\vv{E}$. \cite{Chapitre10}
+    \item Citer le théorème de Stokes-Ampère. \cite{Chapitre10}
+    \item Donner l'expression du courant. \cite{Chapitre11}
+    \item Valeur du vecteur densité de courant dans le cas de plusieurs types de porteurs de charge. \cite{Chapitre11}
+    \item Définition véritable du vecteur densité de courant. \cite{Chapitre11}
+    \item Cas de la distribution surfacique. Et définition du vecteur densité surfacique de courant. \cite{Chapitre11}
+    \item Donner la loi de Biot et Savart. $d\vv{B}_P(M)=\frac{\mu_0}{4 \pi}\frac{\vv{J}(P)\land \vv{PM}}{PM^3}d\tau$ \cite{Chapitre11}
+    \item Définir le flux magnétostatique \cite{Chapitre11}
+    \item Que peut-on dire du flux magnétostatique. \cite{Chapitre11}
+    \item Quel est le lien avec la divergence de $\vv{B}$ \cite{Chapitre11}
+    \item Equation de Maxwell-Thomson. \cite{Chapitre11}
+    \item Valeur de $\vv{B}$ grâce à la loi de Biot Savart. \cite{Chapitre11}
+    \item Définition de la circulation du champ magnétique. \cite{Chapitre11}
+    \item Discussion en fonction de $\Gamma$ \cite{Chapitre11}
+    \item Citer le théorème d'Ampère. \cite{Chapitre11}
+    \item Valeur de la perméabilité magnétique du vide. \cite{Chapitre11}
+    \item Que vaut $I_{enlace}$ dans le cas d'une distribution filiforme / volumique / surfacique. \cite{Chapitre11}
+    \item Donner la stratégie de mise en \oe uvre. \cite{Chapitre11}
+    \item Rappeler les conditions pour appliquer le théorème d'Ampère "idéal". \cite{Chapitre11}
+    \item Que peut-on dire du champ magnétique ? \cite{Chapitre11}
+    \item Comment faire pour utiliser Ampère dans le cas du solénoide infini / de la nappe de courant ? \cite{Chapitre11}
+    \item Rappeler l'équation de Maxwell-Ampère et sa "preuve". \cite{Chapitre11}
+    \item Autour de quoi tourne le courant magnétostatique ? \cite{Chapitre11}
+    \item Que se passe-t-il pour le champ magnétostatique lors d'un évasement / resserrement. \cite{Chapitre11}
+    \item Capacité linéique $C_{\ell}=\frac{C_H}{H}$
+    \item Calculer un vecteur densité volumique de courant. (voir TD8 exo 2)
+\end{enumerate}
+
+
+
+
+
+
+\bibliography{biblio}
+\bibliographystyle{unsrt}
+
+\end{document}

@@ -395,6 +395,120 @@ On se place alors sur un segment où ca marche et ok par convergence normale...
 
 
 
+\subsection{Session Exercice 9 :}
+
+
+\subsubsection{Exercice 11}
+
+$a_0=1$, $a_{n+1}=arctan(a_n)$
+
+
+$f(x)=arctan(x)$
+
+$g(x)=f(x)-x$
+
+Avec un tableau de signe, $f$ est croissante.
+
+puis $g'(x)=\frac{1}{1+x^2}-1=\frac{-x^2}{1+x^2}\leq 0$
+
+$g(0)=0$ et $g$ décroissante donc :
+
+$a_{n+1}-a_n=g(a_n)\leq 0$
+
+$(a_n)$ décroissante et minorée par $0$ donc $(a_n)$ converge.
+
+Posons $\ell=lim a_n$, $\ell \in \mathbb{R}^+$
+
+$a_{n+1}=f(a_n)$ et $f'$ $\mathscr{C}^0$ sur $\mathbb{R}^+$ et PPL: $\ell = f(\ell)$
+
+i.e $g(l)=0$ puis $\ell=0$
+
+$(a_n)$ converge donc $R_a\geq 1$
+
+$arctan(u)=u-\frac{u^3}{3} + o(u^3)$
+
+$a_{n+1}=a_n-\frac{a_n^3}{3} + o(a_n^3)$     $lim a_n =0$
+
+$a_{n+1}=a_n(1-\frac{a_n^2}{3} + o (a_n^2))$
+
+
+on calcul alors $a_{n+1}^{-2}$ (l'idée viens du carré dans les parenthèses)
+
+On montre ainsi que $lim a_{n+1}^{-2} -a_n^{-2}=\frac{2}{3}$
+
+Ainsi, $a_n^{-2} \sim \frac{2n}{3}$
+
+$a_n \sim \sqrt{\frac{3}{2n}}=\sqrt{\frac{3}{2}} \frac{1}{n^{\frac{1}{2}}}$
+
+On montre alors que $R_a =1$ en étudiant $\frac{|b_{n+1}|}{|b_n|}$ avec $b_n=\frac{K}{n^{\frac{1}{2}}}$
+
+On en déduit alors $E_a$ en étudiant le comportement aux limites.
+
+
+
+\subsubsection{Exercice 1}
+
+5)
+
+$a_n=\frac{ch(n)}{n}$.
+
+On a alors $R_a=R_{(na_n)}$
+
+$na_n \sim ch(n) \sim \frac{e^n}{2}$
+
+$R_a=R_{(e^n)}=\frac{1}{|e|}=\frac{1}{e}$
+
+
+
+\subsubsection{Exercice 9}
+
+
+
+\subsection{18 Novembre}
+
+\begin{itemize}
+    \item Notion d'intégrabilité.
+    \item Ensemble $L^1(I,\mathbb{K})$
+    \item Caractérisation de l'intégrabilité 
+    \item Exemple de référence d'applications intégrables.
+    \item Quelles sont les conditions pour écrire $\int_{I} f$
+    \item intégrable $\Rightarrow$ intégrale généralisée converge. La réciproque est fausse.
+    \item Toute intégrale semi-convergente converge mais la fonctions qui lui est associée n'est pas intégrable.
+    \item Conditions pour avoir $\int_{I} \varphi \Rightarrow \varphi =0_{\mathbb{R}^I}$ (4 conditions)
+\end{itemize}
+
+
+
+
+
+\subsection{19 Novembre}
+
+
+\subsubsection{Questions}
+
+
+\begin{itemize}
+    \item Si c'est intégrable, les bornes sont négligeables.
+\end{itemize}
+
+
+\subsubsection{Remarques}
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

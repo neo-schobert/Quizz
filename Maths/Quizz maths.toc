@@ -15,3 +15,11 @@
 \contentsline {subsection}{\numberline {2.1}15 Novembre}{4}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Questions}{4}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Remarque}{5}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Session Exercice 9 :}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Exercice 11}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Exercice 1}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Exercice 9}{6}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}18 Novembre}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}19 Novembre}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Questions}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Remarques}{6}{subsubsection.2.4.2}%
