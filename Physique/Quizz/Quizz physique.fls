@@ -293,8 +293,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
-OUTPUT /home/neo/Bureau/TEST/Physique/Quizz/Quizz physique.toc
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT /home/neo/Bureau/TEST/Physique/Quizz/Quizz physique.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /home/neo/Bureau/TEST/Physique/Quizz/Images/Reseau en transmission.png
 INPUT /home/neo/Bureau/TEST/Physique/Quizz/Images/Reseau en transmission.png
