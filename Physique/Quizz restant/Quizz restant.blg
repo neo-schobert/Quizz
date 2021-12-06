@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Quizz restant.aux
 The style file: unsrt.bst
 Database file #1: biblio.bib
-You've used 12 entries,
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            494 strings with 5439 characters,
-and the built_in function-call counts, 1522 in all, are:
-= -- 120
-> -- 48
+            506 strings with 6081 characters,
+and the built_in function-call counts, 1897 in all, are:
+= -- 150
+> -- 60
 < -- 0
-+ -- 24
-- -- 12
++ -- 30
+- -- 15
 * -- 2
-:= -- 239
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 12
+:= -- 296
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 60
-empty$ -- 217
-format.name$ -- 12
-if$ -- 361
+cite$ -- 15
+duplicate$ -- 75
+empty$ -- 271
+format.name$ -- 15
+if$ -- 451
 int.to.chr$ -- 0
-int.to.str$ -- 12
+int.to.str$ -- 15
 missing$ -- 0
-newline$ -- 63
-num.names$ -- 12
-pop$ -- 60
+newline$ -- 78
+num.names$ -- 15
+pop$ -- 75
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 59
+skip$ -- 74
 stack$ -- 0
 substring$ -- 0
-swap$ -- 12
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 12
-width$ -- 14
-write$ -- 110
+while$ -- 15
+width$ -- 17
+write$ -- 137
