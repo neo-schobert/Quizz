@@ -39,3 +39,5 @@
 \contentsline {section}{\numberline {14}6 Décembre}{13}{section.14}%
 \contentsline {subsection}{\numberline {14.1}Questions}{13}{subsection.14.1}%
 \contentsline {subsection}{\numberline {14.2}Remarques}{13}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Questions}{13}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Remarques}{14}{subsection.14.4}%
