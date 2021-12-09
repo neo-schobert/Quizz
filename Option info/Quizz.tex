@@ -1,0 +1,168 @@
+\documentclass[a4paper, 11pt, hidelinks]{article}
+\usepackage{bookmark}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{eucal}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{tikz}
+\usepackage{mathrsfs}  
+\usepackage{esvect}
+
+
+\geometry{hmargin=2cm,vmargin=1.5cm}
+
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!5},
+  root/.style     = {treenode, font=\Large, bottom color=red!10},
+  env/.style      = {treenode, font=\ttfamily\normalsize},
+  dummy/.style    = {circle,draw}
+}
+
+\newcommand{\prp}{\large \textbf{Proposition :} \large}
+
+\newcommand{\tm}{\large \textbf{Théoreme :} \large}
+
+\newcommand{\ex}{\textcolor{green}{Exemple :} }
+
+\newcommand{\dm}{\textcolor{red}{\textbf{Démo :} } }
+
+\newcommand{\de}{\large \textbf{Définition} \large }
+
+\newcommand{\rmq}{\textbf{Remarque :} }
+
+\newcommand{\bs}{\bigskip}
+
+\newcommand{\voca}{\textcolor{blue}{\textbf{Vocabulaire} } }
+
+\newcommand{\lem}{\textcolor{red}{\textbf{Lemme :} } }
+
+\newcommand{\trinom}[3]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3
+\end{pmatrix}}
+
+\newcommand{\quadrinom}[4]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+\end{pmatrix}}
+
+\newcommand{\pentanom}[5]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5
+\end{pmatrix}}
+
+\newcommand{\hexanom}[6]{\begin{pmatrix}
+    #1 \\
+    #2 \\
+    #3 \\
+    #4 \\
+    #5 \\
+    #6 
+\end{pmatrix}}
+
+\newcommand{\serie}[2]{\displaystyle\sum_{#1 =0}^{+\infty} #2_{#1} }
+
+\newcommand{\tend}{\underset{n \to + \infty}{\longrightarrow} }
+
+\newcommand{\Lra}{\Leftrightarrow}
+
+\newcommand{\lra}{\leftrightarrow}
+
+\newcommand{\Ra}{\Rightarrow}
+
+\newcommand{\ra}{\rightarrow}
+
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\La}{\Leftarrow}
+
+\newcommand{\dsum}[2]{\displaystyle\sum_{#1}^{#2} }
+
+\newcommand{\dint}[2]{\displaystyle\int_{#1}^{#2} }
+
+\newcommand{\ntend}{\underset{n \to + \infty}{\not \longrightarrow} }
+
+\newenvironment{lmatrix}{$ \left|\begin{array}{l} }{\end{array}\right.$}
+
+\newcommand{\img}[4]{\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=#1 ]{#2}
+    \caption{#3}
+    \label{#4}
+    \end{figure} }    
+\begin{document}
+
+\newcommand{\grad}[1]{\vv{grad}#1}
+
+
+\title{Option info}
+\author{Schobert Néo}
+
+\maketitle
+
+\tableofcontents
+
+\newpage 
+
+
+\section{Les bases}
+
+
+
+\begin{itemize}
+    \item Comment afficher une chaine de caractères.
+    \item Comment afficher un saut de ligne.
+    \item Comment concaténer deux chaines. Exemple : concaténer "liberté, " "égalité, " "fraternité, ".
+    \item Que fait la fonction nth\_char.
+    \item Que fait la fonction sub\_string.
+    \item Qu'est-ce qu'une fonction curryfiée ?
+    \item Quelles sont les opérations de base sur les couples ?
+    \item Quel ordre utilise la comparaison des chaines de caractères ? 
+    \item Qu'est-ce qu'un type produit ? 
+    \item Qu'est-ce qu'un nom avec paramètre ? 
+    \item Définir le type récursif. L'utiliser dans le cas des couleurs.
+    \item Ecrire une fonction qui calcule la composante RGB d'une couleur.
+    \item Différence entre function et fun.
+    \item Que ne faut-il pas faire dans le pattern matching ? (ordre comptes)
+    \item Que fait l'opération prefix ?
+    \item Définir la fonction égal en utilisant prefix.
+    \item Comment lever une erreur ?
+    \item Comment définir deux fonctions mutuellement récursives ?
+    \item Refaire l'exo 01.3.
+\end{itemize}
+
+
+
+\section{Les listes}
+
+
+\begin{itemize}
+    \item Reconstruire le type liste.
+    \item Comment obtenir la tête et la queue d'une liste ?
+    \item Comment changer un opérateur infix en opérateur préfix ?
+    \item 
+\end{itemize}
+
+
+
+
+\end{document}

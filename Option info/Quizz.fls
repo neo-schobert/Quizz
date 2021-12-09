@@ -1,10 +1,10 @@
-PWD /home/neo/Bureau/TEST/Physique/Quizz restant
+PWD /home/neo/Bureau/TEST/Option info
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.tex
-OUTPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.log
+INPUT /home/neo/Bureau/TEST/Option info/Quizz.tex
+OUTPUT /home/neo/Bureau/TEST/Option info/Quizz.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -222,9 +222,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux
-OUTPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux
+INPUT /home/neo/Bureau/TEST/Option info/Quizz.aux
+INPUT /home/neo/Bureau/TEST/Option info/Quizz.aux
+OUTPUT /home/neo/Bureau/TEST/Option info/Quizz.aux
 INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
@@ -234,7 +234,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-OUTPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.pdf
+OUTPUT /home/neo/Bureau/TEST/Option info/Quizz.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -283,40 +283,15 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect6.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.toc
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.toc
+INPUT /home/neo/Bureau/TEST/Option info/Quizz.toc
+INPUT /home/neo/Bureau/TEST/Option info/Quizz.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
-OUTPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.toc
+OUTPUT /home/neo/Bureau/TEST/Option info/Quizz.toc
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
-INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux
+INPUT /home/neo/Bureau/TEST/Option info/Quizz.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr6.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect8.pfb
