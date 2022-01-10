@@ -55,3 +55,6 @@
 \contentsline {subsection}{\numberline {18.2}Remarques}{16}{subsection.18.2}%
 \contentsline {subsection}{\numberline {18.3}Questions}{17}{subsection.18.3}%
 \contentsline {subsection}{\numberline {18.4}Remarques}{17}{subsection.18.4}%
+\contentsline {section}{\numberline {19}10 Janvier}{17}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Questions}{17}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Remarques}{18}{subsection.19.2}%
