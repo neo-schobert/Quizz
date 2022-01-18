@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.18)  10 JAN 2022 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.18)  18 JAN 2022 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,13 +687,13 @@ File: uesvect.fd
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 177.
- [2] [3]
+(Font)              <10.95> on input line 172.
+ [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 259.
+(Font)              <9> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 259.
- [4] [5] (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
+(Font)              <5> on input line 211.
+ [3] [4] [5] (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -782,7 +782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--80
 \T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Electromagnetisme / Equations _ Maxwell / Equations _
  []
 
-[6]
+
 Underfull \hbox (badness 4072) in paragraph at lines 82--86
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 14.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
@@ -822,7 +822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 \T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Electromagnetisme / OEM _ rayonnement / OEM _
  []
 
-
+[6]
 Underfull \hbox (badness 4072) in paragraph at lines 112--116
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 19.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
@@ -837,27 +837,37 @@ Underfull \hbox (badness 4072) in paragraph at lines 118--122
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 20.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
 
+
+Underfull \hbox (badness 4072) in paragraph at lines 124--128
+[]\T1/lmr/m/n/10.95 Graye.  Cha-pitre 21.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+\T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Physique _ quantique / Fonction _ onde _ equ _
+ []
+
 ) [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
  (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 346.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 348.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
  ) 
 Here is how much of TeX's memory you used:
- 20447 strings out of 481239
- 371282 string characters out of 5920377
- 629193 words of memory out of 5000000
+ 20436 strings out of 481239
+ 371188 string characters out of 5920377
+ 630193 words of memory out of 5000000
  35049 multiletter control sequences out of 15000+600000
  583495 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,60p,462b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,60p,462b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on "/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.pdf" (7 pages, 314318 bytes).
+Output written on "/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.pdf" (7 pages, 310535 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 613 compressed objects within 7 object streams
+ 210 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
