@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.18)  18 JAN 2022 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.18)  3 FEB 2022 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,6 +540,8 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 ) (/usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
 Package: esvect 
 \symesvector=\mathgroup7
+) (/usr/share/texlive/texmf-dist/tex/latex/romanbar/romanbar.sty
+Package: romanbar 2012/01/01 v1.0f Roman numbers with bars (HMM)
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count302
@@ -547,28 +549,28 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 ) (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux)
 \openout1 = `"Quizz restant.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 115.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 115.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -578,9 +580,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+LaTeX Info: Redefining \nameref on input line 115.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count304
@@ -600,9 +602,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \degres on input line 112.
-LaTeX Info: Redefining \dots on input line 112.
-LaTeX Info: Redefining \up on input line 112.
+LaTeX Info: Redefining \degres on input line 115.
+LaTeX Info: Redefining \dots on input line 115.
+LaTeX Info: Redefining \up on input line 115.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -642,41 +644,41 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 121.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 124.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 121.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 124.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 121.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 124.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 121.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 124.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 121.
+(Font)              <12> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 121.
+(Font)              <8> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 121.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 121.
+(Font)              <6> on input line 124.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 124.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 121.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 124.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 121.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 124.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 121.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 124.
  (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 ) (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.toc)
@@ -687,13 +689,17 @@ File: uesvect.fd
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 172.
+(Font)              <10.95> on input line 179.
  [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 211.
+(Font)              <9> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 211.
- [3] [4] [5] (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
+(Font)              <5> on input line 218.
+ [3] [4]
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 306.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [5] (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -792,7 +798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--86
 \T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Electromagnetisme / Energie _ electromagnetique /
  []
 
-
+[6]
 Underfull \hbox (badness 4072) in paragraph at lines 88--92
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 15.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
@@ -822,7 +828,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 \T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Electromagnetisme / OEM _ rayonnement / OEM _
  []
 
-[6]
+
 Underfull \hbox (badness 4072) in paragraph at lines 112--116
 []\T1/lmr/m/n/10.95 Graye.  Cha-pitre 19.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
  []
@@ -847,27 +853,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--128
 \T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Physique _ quantique / Fonction _ onde _ equ _
  []
 
+
+Underfull \hbox (badness 4072) in paragraph at lines 130--134
+[]\T1/lmr/m/n/10.95 Graye.  Cha-pitre 22.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
+\T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Physique _ quantique / Particule _ dans _ potentiel _
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 136--140
+[]\T1/lmr/m/n/10.95 Graye.  Cha-pitre 23.  []$\T1/lmtt/m/n/10.95 https : / / mp3montaignebdx . legtux . org / wp-[]content / Dossiers _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
+\T1/lmtt/m/n/10.95 personnels / Cours / Cours _ physique / Physique _ quantique / Particule _ dans _ potentiel _
+ []
+
 ) [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
  (/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 348.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
  ) 
 Here is how much of TeX's memory you used:
- 20436 strings out of 481239
- 371188 string characters out of 5920377
- 630193 words of memory out of 5000000
- 35049 multiletter control sequences out of 15000+600000
- 583495 words of font info for 78 fonts, out of 8000000 for 9000
+ 20505 strings out of 481239
+ 372308 string characters out of 5920377
+ 631156 words of memory out of 5000000
+ 35096 multiletter control sequences out of 15000+600000
+ 586265 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,60p,462b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on "/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.pdf" (7 pages, 310535 bytes).
+ 60i,14n,60p,462b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
+Output written on "/home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.pdf" (7 pages, 285214 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 210 named destinations out of 1000 (max. 500000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 651 compressed objects within 7 object streams
+ 224 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

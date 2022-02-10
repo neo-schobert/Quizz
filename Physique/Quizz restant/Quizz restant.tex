@@ -18,6 +18,7 @@
 \usepackage{tikz}
 \usepackage{mathrsfs}  
 \usepackage{esvect}
+\usepackage{romanbar}
 
 
 \geometry{hmargin=2cm,vmargin=1.5cm}
@@ -48,6 +49,8 @@
 \newcommand{\voca}{\textcolor{blue}{\textbf{Vocabulaire} } }
 
 \newcommand{\lem}{\textcolor{red}{\textbf{Lemme :} } }
+
+\newcommand{\rb}[1]{\Romanbar{#1}}
 
 \newcommand{\trinom}[3]{\begin{pmatrix}
     #1 \\
@@ -146,6 +149,10 @@
 \cite{Chapitre19}
 \cite{Chapitre20}
 \cite{Chapitre21}
+\cite{Chapitre22}
+\cite{Chapitre23}
+
+
 
 
 \cite{Chapitre1bis}
@@ -249,13 +256,6 @@
     \item Comment en déduire que le ciel est bleu ? \cite{Chapitre18}
     \item Retrouver l'équilibre thermique et l'équilibre mécanique et l'équilibre osmotique à l'aide de l'entropie d'un système isolé $\Sigma_1 + \Sigma_2$. \cite{Chapitre1bis}
     \item Problème de l'entropie comme fonction d'état caractérisant le potentiel. \cite{Chapitre1bis}
-    \item Décrire le phénomène de convection naturelle. \cite{Chapitre20}
-    \item Décrire le phénomène de convection forcée. \cite{Chapitre20}
-    \item Décrire le phénomène de rayonnement. \cite{Chapitre20}
-    \item Que dire du rayonnement de tout corps de $T>0$\footnote{$u_{em}=\frac{8\pi h c }{\lambda^5} \frac{1}{e^{\frac{hc}{\lambda k_b T}}-1}$} \cite{Chapitre20}
-    \item Comment que ca marche le corps noir déjà. \cite{Chapitre20}
-    \item Que retenir du transfert d'énergie par rayonnement ? \footnote{Sans contact, sans matière, par OEM} \cite{Chapitre20}
-    \item Décrire l'expérience d'Ingen Ousz. Quel résultat implique-t-elle ? \cite{Chapitre20} 
     \item Définir le flux thermique. (courant thermique) Et donner son unité. \cite{Chapitre20}
     \item Définir la densité de flux thermique surfacique. \cite{Chapitre20}
     \item Lien entre flux thermique et flux thermique surfacique. \cite{Chapitre20}
@@ -298,35 +298,59 @@
     \item Définir alors la résistance conducto-convective. \cite{Chapitre20}
     \item Définir le nombre de Biot. A quoi il sert ? \cite{Chapitre20}
     \item Refaire les exos d'application. \cite{Chapitre20}
-    \item Que déduit-t-on de l'expérience de Davisson et Germer ? \cite{Chapitre21}
-    \item Donner le premier postulat de la physique quantique. \cite{Chapitre21}
-    \item Rappeler la relation de Quantum de Planck. \cite{Chapitre21}
-    \item Rappeler la relation de De Broglie. La retrouver. \cite{Chapitre21}
-    \item Définir le critère quantique. Sens physique de la constante de Planck. \cite{Chapitre21}
-    \item Définir la densité de probabilité de présence. \cite{Chapitre21}
-    \item Définir la condition de normalisation. \cite{Chapitre21}
-    \item Que permet la condition de normalisation ? \cite{Chapitre21}
-    \item Définir la valeur moyenne d'un observable. \cite{Chapitre21}
-    \item Donner la relation de Planck-Einstein. \cite{Chapitre21}
-    \item Retrouver l'équation de Schrödinger 1D pour une particule libre. \cite{Chapitre21}
-    \item Retrouver l'équation de Schrödinger 1D généralisée. Donner la forme 3D. \cite{Chapitre21}
-    \item Que peut-on dire de l'équation de Schrödinger ? \cite{Chapitre21}
-    \item Développer la densité de probabilité dans le cas des fentes d'Young. \cite{Chapitre21}
-    \item Définir les états stationnaires. \cite{Chapitre21}
-    \item Retrouver l'équation de Schrödinger indépendante du temps. Et son homologue indépendante de l'espace. \cite{Chapitre21}
-    \item Donner la signification de $E$. \cite{Chapitre21}
-    \item Comment s'écrit la fonction d'onde d'un état stationnaire ? \cite{Chapitre21}
-    \item Que peut-on dire de la densité de probabilité dans le cas stationnaire ? \cite{Chapitre21}
-    \item Différence onde sationnaire d'un point de vue classique ou quantique. \cite{Chapitre21}
-    \item Donner le postulat numéro 3. \cite{Chapitre21}
-    \item Conséquence de ce postulat. \cite{Chapitre21}
-    \item Que peut-on dire des ondes de De Broglie, analogues aux OPPH. \cite{Chapitre21}
-    \item Que peut-on dire de la fonction d'onde d'un système quantique réel (c'est-à-dire normalisable) ? \cite{Chapitre21}
-    \item Donner la relation de dispersion de la particule libre. La retrouver \cite{Chapitre21}
-    \item Rappeler la relation temps fréquence. \cite{Chapitre21}
-    \item Retrouver alors le principe d'incertitude de Heisenberg. \cite{Chapitre21}
-    \item Faire l'analogie avec l'EM et construire le vecteur courant de probabilité et l'équation de conservation de probabilité. \cite{Chapitre21} 
+    \item Définir la grandeur de réaction. (la retrouver) \cite{Chapitre2bis}
+    \item Définir l'opérateur de Lewis. \cite{Chapitre2bis}
+    \item Définir la notion de grandeur standard de réaction. \cite{Chapitre2bis}
+    \item Trouver les relations entre grandeur standards. \cite{Chapitre2bis}
+    \item Donner les relations de Gibbs-Helmholtz (Les retrouver) \cite{Chapitre2bis}
+    \item Quelle est la problématique ici ? (\rb{2}) \cite{Chapitre2bis}
+    \item Quelle grandeur est donnée par les tables ? \cite{Chapitre2bis}
+    \item Définir la grandeur standard de formation d'un constituant chimique. \cite{Chapitre2bis}
+    \item Que remarque-t-on quant à $\Delta X^0$ ? \cite{Chapitre2bis}
+    \item Donner la loi de Hess. (La retrouver.) \cite{Chapitre2bis}
+    \item Donner le principe de Nernst. ($3^{eme}$ principe) \cite{Chapitre2bis}
+    \item Comment calculer l'entropie molaire. \cite{Chapitre2bis}
+    \item Qui domine dans $S_{i(g)}^0 / S_{i(\ell)} / S_{i(s)}$ ? \cite{Chapitre2bis}
+    \item En déduire une approximation de $\Delta_r S^0$ \cite{Chapitre2bis}
+    \item Que vaut en moyenne $S_{i(g)}^0$ ? \cite{Chapitre2bis}
+    \item Que vaut alors $\Delta_r S^0$ ? \cite{Chapitre2bis}
+    \item Donner la signification physique du signe de $\Delta \nu_{(g)}$ \cite{Chapitre2bis}
+    \item Définir la chaleur latente de changement d'état. \cite{Chapitre2bis}
+    \item Donner les lois de Kirchhoff et les retrouvers. \cite{Chapitre2bis}
+    \item Donner les approximations classiques. \cite{Chapitre2bis}
+    \item Quelle fonction d'état utiliser pour une réaction monobare ? \cite{Chapitre3bis}
+    \item Lien entre $H$ et $Q$. \cite{Chapitre3bis}
+    \item Définir le sens de transfert thermique. \cite{Chapitre3bis}
+    \item Etudier le cas d'une réaction monobare-adiabatique. \cite{Chapitre3bis}
+    \item Faire le lien avec la méthode pour retrouver une température finale. \cite{Chapitre3bis}
+    \item Dans quel cas l'enthalpie libre est une fonction potentielle. \cite{Chapitre3bis}
+    \item Donner l'expression de $G$. \cite{Chapitre3bis}
+    \item Donner l'identité thermodynamique sur $G$ en déduire une relation entre $S^c$ et $\Delta_r G d \xi$ \cite{Chapitre3bis}
+    \item Donner le critère d'évolution et prévoir le sens d'évolution en différenciant les cas. \cite{Chapitre3bis}
+    \item Faire la modélisation de la molécule d'ammoniac. \cite{Chapitre23}
+    \item Faire alors la premère approche avec double puits infinis. \cite{Chapitre23}
+    \item Que dire de l'énergie. \cite{Chapitre23}
+    \item Définir la notion d'état dégénéré. \cite{Chapitre23}
+    \item Définir la notion d'état symétrique et antisymétrique. \cite{Chapitre23}
+    \item Faire la seconde approche avec double puits finis. \cite{Chapitre23}
+    \item Donner la forme de la fonction d'onde selon les régions. \cite{Chapitre23}
+    \item Quelle est alors l'astuce essentielle ? \cite{Chapitre23}
+    \item Intérêt des fonctions symétriques et antisymétriques. \cite{Chapitre23}
+    \item Donner la forme de la fonction d'onde symétrique et antisymétrique selon les régions. \cite{Chapitre23}
+    \item Que remarque-t-on sur k et $\kappa$ \cite{Chapitre23}
+    \item Donner l'allure des fonctions d'onde symétrique en mode propre $1$. \cite{Chapitre23}
+    \item Retrouver les équations transcendantes. \cite{Chapitre23}
+    \item Que peut-on en déduire quant à la dégénérescence $g=2$ ? Quel lien avec l'effet Tunnel ? \cite{Chapitre23}
+    \item Retrouver et donner les équations approximées. \cite{Chapitre23}
+    \item Mener ensuite la résolution graphique. \cite{Chapitre23}
+    \item Que peut-on en déduire énergétiquement ? \cite{Chapitre23}
+    \item Valeur approximée de $k_a$ et $k_s$. \cite{Chapitre23}
+    \item Donner et retrouver la différence d'énergie. \cite{Chapitre23}
+    \item Quel est l'effet du couplage sur l'énergie. Se rappeler du schéma. \cite{Chapitre23}
 \end{enumerate}
+
+
+
 
 
 

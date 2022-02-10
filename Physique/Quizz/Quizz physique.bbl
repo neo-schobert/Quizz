@@ -126,6 +126,18 @@ Graye.
 \newblock
   \url{https://mp3montaignebdx.legtux.org/wp-content/Dossiers_personnels/Cours/Cours_physique/Physique_quantique/Fonction_onde_equ_Schrodinger.pdf}.
 
+\bibitem{Chapitre22}
+Graye.
+\newblock Chapitre 22.
+\newblock
+  \url{https://mp3montaignebdx.legtux.org/wp-content/Dossiers_personnels/Cours/Cours_physique/Physique_quantique/Particule_dans_potentiel_constant_par_morceaux.pdf}.
+
+\bibitem{Chapitre23}
+Graye.
+\newblock Chapitre 23.
+\newblock
+  \url{https://mp3montaignebdx.legtux.org/wp-content/Dossiers_personnels/Cours/Cours_physique/Physique_quantique/Particule_dans_potentiel_puits_potentiel_infini.pdf}.
+
 \bibitem{Chapitre1bis}
 Graye.
 \newblock Chapitre 1 - chimie.
@@ -139,7 +151,8 @@ Graye.
 \bibitem{Chapitre3bis}
 Graye.
 \newblock Chapitre 3 - chimie.
-\newblock \url{https://www.google.com/}.
+\newblock
+  \url{https://mp3montaignebdx.legtux.org/wp-content/Dossiers_personnels/Cours/Cours_chimie/Thermochimie/Transfo_chimique.pdf}.
 
 \bibitem{Chapitre4bis}
 Graye.
@@ -181,5 +194,10 @@ Graye.
 \newblock Divergence and curl: The language of maxwell's equations, fluid flow,
   and more.
 \newblock \url{https://www.youtube.com/watch?v=rB83DpBJQsE}.
+
+\bibitem{Chapitre24}
+Graye.
+\newblock Chapitre 24.
+\newblock \url{https://www.google.com/}.
 
 \end{thebibliography}

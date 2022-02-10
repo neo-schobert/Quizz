@@ -220,6 +220,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/romanbar/romanbar.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/romanbar/romanbar.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.aux
@@ -311,6 +313,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
+INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss10.tfm
 INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
 INPUT /home/neo/Bureau/TEST/Physique/Quizz restant/Quizz restant.bbl
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -331,10 +336,9 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr5.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr6.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr9.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb
