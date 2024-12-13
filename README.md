@@ -9,14 +9,7 @@ Le principe est simple : un cours est considéré comme "su" lorsque toutes les 
 ## Structure du Projet
 
 ### Fichiers
-Les quizz sont organisés par matière, chaque fichier **.tex** contenant les questions pour une section du programme.
-
-- **maths.tex** : Questions de mathématiques.
-- **physique.tex** : Questions de physique.
-- **ipt.tex** : Questions d’informatique pour tous.
-- **option\_info.tex** : Questions pour l’option informatique.
-
-Chaque fichier peut être compilé avec un outil compatible LaTeX pour produire un document PDF prêt à l’emploi.
+Les quizz sont organisés par matière, chaque fichier **.tex** ou **.pdf** contenant les questions pour une section du programme.
 
 ### Format des Questions
 Les questions suivent une mise en page claire et concise :
